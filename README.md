@@ -17,6 +17,15 @@
   <a href="https://github.com/DeswitaPutri/whatsapp-bot"><img title="Author" src="https://img.shields.io/badge/Author-AlvioAdjiJanuar-darkred.svg?style=for-the-badge&logo=github" /></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/IndonesianDev/whatsapp-bot#Requirements">Persyaratan</a> •
+  <a href="https://github.com/IndonesianDev/whatsapp-bot#installation">Cara Penginstalan</a> •
+  <a href="https://github.com/IndonesianDev/whatsapp-bot#features">Fiturnya</a> •
+  <a href="https://github.com/IndonesianDev/whatsapp-bot#thanks-to">Terimakasih Kepada</a> •
+  <a href="https://github.com/IndonesianDev/whatsapp-bott#license">lisensi</a>
+</p>
+
+
 # Requirements
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
