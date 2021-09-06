@@ -24,3 +24,10 @@
 * Any text editor
 * [Magisk](https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.1.0-6-Q16-HDRI-x64-dll.exe) (Buat nuliskanan kiri folio kanan kiri)
 * [Python](https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe) (Buat canvas)
+
+# installation
+## 📝 Cloning this repo
+```bash
+> git clone https://github.com/DeswitaPutri/whatsapp-bot
+> cd whatsapp-bot
+```
