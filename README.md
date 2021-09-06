@@ -49,7 +49,8 @@
 Edit value yang diperlukan di `settings/setting.json`.
 ```json
 {
-  "ownerNumber": "Nomor Kamu",
+  "ownerNumber": "Nomor Kamu@s.whatsapp.net", //Awalannya 62 - Contoh 62895337151859
+  @s.whatsapp.netnya jangan di apus
   "prefix": "/",
   "apikey": ""
 }
