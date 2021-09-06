@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://images5.alphacoders.com/792238/1595237648494204.png" alt="deswita" width="500" />
+<img src="https://images4.alphacoders.com/792/thumb-1920-792238.png" alt="deswita" width="500" />
 
 # DeswitaBot
 
