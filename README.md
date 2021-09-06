@@ -99,3 +99,20 @@ PM2 with cron job (restart after 5 hours):
 ```
 
 Setelah itu pindai kode QR menggunakan WhatsApp Anda di ponsel Anda!
+
+# Features
+
+*LIST MENU DESWITA*
+[1]Menu System
+[2]Menu Media
+[3]Menu Tools
+[4]Menu Anime
+[5]Menu Eto
+[6]Menu Sticker
+[7]Menu Downloader
+[8]Menu Logo
+[9]Menu Game
+[10]Menu Group
+
+# Thanks to
+* [`AlvioAdjiJanuar`](https://github.com/AlvioAdjiJanuar)
