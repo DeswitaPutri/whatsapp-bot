@@ -31,3 +31,35 @@
 > git clone https://github.com/DeswitaPutri/whatsapp-bot
 > cd whatsapp-bot
 ```
+
+## ✍️ Folder Case 
+```
+> Edit Case Bisa Disini
+> Atau Mau Menambahkan
+```
+
+## 📁 Folder Lib
+```
+> Disitu Terdapat Function Function Bot
+> Edit Terserah Kalian OKey
+> Othey
+```
+
+## 🗂️ Edit value setting
+Edit value yang diperlukan di `settings/setting.json`.
+```json
+{
+  "ownerNumber": "Nomor Kamu",
+  "prefix": "/",
+  "apikey": ""
+}
+
+```
+
+`ownerBot`: your WhatsApp number.  
+
+`prefix`: bot's prefix.  
+
+`apikey`: your can get apikey in rest api lolhuman [link](https://lolhuman.herokuapp.com/)
+
+Untuk Mendapatkan Apikey nya , daftar akun terlebih dahulu di website tersebut
