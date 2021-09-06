@@ -63,3 +63,39 @@ Edit value yang diperlukan di `settings/setting.json`.
 `apikey`: your can get apikey in rest api lolhuman [link](https://lolhuman.herokuapp.com/)
 
 Untuk Mendapatkan Apikey nya , daftar akun terlebih dahulu di website tersebut
+
+
+## UNTUK PENGGUNA WINDOWS/VPS/RDP
+
+```bash
+git https://github.com/DeswitaPutri/whatsapp-bot
+cd whatsapp-bot
+npm i
+npm update
+node .
+```
+
+---------
+
+## UNTUK PENGGUNA TERMUX
+```bash
+git clone https://github.com/DeswitaPutri/whatsapp-bot --branch termux
+cd whatsapp-bot
+npm i
+npm update
+node .
+```
+
+PM2:
+```bash
+> pm2 start index.js
+> pm2 monit
+```
+
+PM2 with cron job (restart after 5 hours):
+```bash
+> pm2 start index.js --cron "* */5 * * *"
+> pm2 monit
+```
+
+Setelah itu pindai kode QR menggunakan WhatsApp Anda di ponsel Anda!
