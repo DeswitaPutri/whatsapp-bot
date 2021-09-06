@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://initiate.alphacoders.com/download/wallpaper/792238/images4/png/1595237648494204" alt="BocchiBot" width="500" />
+<img src="https://images5.alphacoders.com/792238/1595237648494204.png" alt="deswita" width="500" />
 
 # DeswitaBot
 
