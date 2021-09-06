@@ -5,8 +5,8 @@
 
 <h3 align="center">Deswitabot Adalah Bot Whatsapp Pintar Dengan Fitur Yang Berguna Untuk Grup Maupun Pribadi Message ...</h3>
   </div>
-  
- -> Bot Ini Dibuat Oleh Alvio Adji Januar || [Nomor Pembuat Bot](https://api.whatsapp.com/send/?phone=6281414046576&text=halo&app_absent=0)
+# Info  
+ *Bot Ini Dibuat Oleh Alvio Adji Januar || [Nomor Pembuat Bot](https://api.whatsapp.com/send/?phone=6281414046576&text=halo&app_absent=0)
  
 <h3 align="center">Made with ❤️ by</h3>
 <p align="center">
@@ -18,11 +18,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/IndonesianDev/whatsapp-bot#Requirements">Persyaratan</a> •
-  <a href="https://github.com/IndonesianDev/whatsapp-bot#installation">Cara Penginstalan</a> •
-  <a href="https://github.com/IndonesianDev/whatsapp-bot#features">Fiturnya</a> •
-  <a href="https://github.com/IndonesianDev/whatsapp-bot#thanks-to">Terimakasih Kepada</a> •
-  <a href="https://github.com/IndonesianDev/whatsapp-bott#license">lisensi</a>
+  <a href="https://github.com/DeswitaPutri/whatsapp-bot#Requirements">Persyaratan</a> •
+  <a href="https://github.com/DeswitaPutri/whatsapp-bot#installation">Cara Penginstalan</a> •
+  <a href="https://github.com/DeswitaPutri/whatsapp-bot#features">Fiturnya</a> •
+  <a href="https://github.com/DeswitaPutri/whatsapp-bot#thanks-to">Terimakasih Kepada</a> •
+  <a href="https://github.com/DeswitaPutri/whatsapp-bot#license">lisensi</a>
 </p>
 
 
