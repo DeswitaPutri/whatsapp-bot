@@ -12,3 +12,7 @@
 <p align="center">
   <a href="https://github.com/AlvioAdjiJanuar"><img src="https://avatars2.githubusercontent.com/u/68207798?s=400&u=29439908cd661d11443391cb74f5b07267b71117&v=4" height="128" width="128" /></a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/DeswitaPutri/whatsapp-bot"><img title="Author" src="https://img.shields.io/badge/Author-AlvioAdjiJanuar-darkred.svg?style=for-the-badge&logo=github" /></a>
+</p>
