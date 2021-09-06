@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://piyobot.000webhostapp.com/deswita.jpeg" alt="deswita" height="300" width="300" />
+<img src="https://initiate.alphacoders.com/download/wallpaper/792238/images4/png/1595237648494204" alt="BocchiBot" width="500" />
 
 # DeswitaBot
 
