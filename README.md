@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://piyobot.000webhostapp.com/deswita.jpeg" alt="deswita" width="400"/>
+<img src="https://piyobot.000webhostapp.com/deswita.jpeg" alt="deswita" width="128"/>
 
 # DeswitaBot
 
