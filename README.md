@@ -102,7 +102,7 @@ Setelah itu pindai kode QR menggunakan WhatsApp Anda di ponsel Anda!
 
 # Features
 
-*LIST MENU DESWITA*
+*LIST MENU DESWITA*\n
 [1]Menu System
 [2]Menu Media
 [3]Menu Tools
