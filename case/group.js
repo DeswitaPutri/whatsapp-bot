@@ -173,5 +173,15 @@ async function profile  (deswita,sender,pushname,from,image,al)  {
 }
 
 module.exports = {
-    profile
+    profile,
+    promote,
+    demote,
+    tagall,
+    kapan,
+    kick,
+    add,
+    apakah, 
+    mutegrup,
+    bcgc,
+    welcome
 }
