@@ -253,6 +253,14 @@ deswita.on('chat-update', async (al) => {
         deswita.sendMessage(from, teks, text, { quoted: al})
     }
 
+    const parseMention = (text = '') => {
+        return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')
+    }
+
+    const reply2 = (ttx,quoted,option) => {
+        deswita.sendMessage(from, ttx , MessageType.extendedText, { contextInfo: { mentionedJid: parseMention(ttx) }, quoted})
+    }
+
     const sendTextWithmentions = (teks, member, id) => {
         (id == null || id == undefined || id == false) ? deswita.sendMessage(from, teks.trim(), extendedText, { contextInfo: { "mentionedJid": member } }) : deswita.sendMessage(from, teks.trim(), extendedText, { quoted: al, contextInfo: { "mentionedJid": member } })
     }
@@ -797,6 +805,23 @@ deswita.on('chat-update', async (al) => {
     fakegroup(updatee)     
     break
 
+    case 'caripesan':
+    if (!q) return reply(`Ketik ${prefix}caripesan pesannya|5`)
+    let txt = args.join(` `)
+    let split = txt.split`|`
+    const findmessage = await deswita.searchMessages(split[0],from, split[1] ? split[1] : 2, 1)
+    if (findmessage.messages.length > 0) {
+    let total = findmessage.messages.length
+    let sp = total < Number(split[1]) ? `Hanya ditemukan ${total} pesan ` : `Ditemukan ${total} pesan`
+    reply2(sp)
+    findmessage.messages.map(async ({ key }) => {
+    let { remoteJid: _remoteJid, id: _ids } = key
+    let _message = await deswita.loadMessage(_remoteJid, _ids)
+    reply2('Nih pesannya', _message)
+        })
+    }
+    break
+
     /////////////////////////////////////TOOLS///////////////////////////////////////          
 
     case 'artinama':
@@ -860,6 +885,11 @@ deswita.on('chat-update', async (al) => {
     case 'google':
     if (args.length == 0) return reply(`Example: ${prefix + command} loli kawaii`)
     casetools.google(args,reply)
+    break
+
+    case 'gimage':
+    if (args.length == 0) return reply(`Example: ${prefix + command}loli`)
+    casetools.gimage(args,reply,image,deswita,al,from)
     break
 
     case 'translate':
