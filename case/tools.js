@@ -223,6 +223,18 @@ async function google (args,reply) {
     reply(ini_txt)
 }
 
+async function gimage (args,reply,image,deswita,al,from) {
+    try {
+    reply(wait)
+    txt1 = args[0]
+    get_result = await getBuffer(`https://api.lolhuman.xyz/api/gimage?apikey=${apikey}&query=${txt1}`)
+    await deswita.sendMessage(from, get_result , image , {quoted : al})
+    }
+    catch{
+    reply('*ERROR*\nGambar Tidak Bisa Di Simpan Di Database')
+    }
+}
+
 async function cuaca (args,deswita,from,reply,al) {
     daerah = args[0]
     get_result = await fetchJson(`https://api.lolhuman.xyz/api/cuaca/${daerah}?apikey=${apikey}`)
@@ -257,5 +269,6 @@ module.exports = {
     lirik,
     chord,
     google,
+    gimage,
     cuaca
 }
