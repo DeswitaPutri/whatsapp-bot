@@ -939,7 +939,7 @@ deswita.on('chat-update', async (al) => {
     case 'shinobu':
     case 'megumin':
     case 'wallnime':
-    casemedia.kpop(command,deswita,from,image,al)
+    casemedia.kpop(command,deswita,from,image,al,reply)
     break
 
     case 'ptl':
