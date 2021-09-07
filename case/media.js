@@ -51,7 +51,7 @@ async function lolivid (reply,from,deswita,video,al,Mimetype){
     reply(done)
 }
 
-async function kpop (deswita,from,image,al) {
+async function kpop (deswita,from,image,al,reply) {
     reply(wait)
     getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=${apikey}`).then((gambar) => {
     deswita.sendMessage(from, gambar, image, { quoted: al })
