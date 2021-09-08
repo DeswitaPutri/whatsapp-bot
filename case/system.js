@@ -1,4 +1,5 @@
 const fs = require('fs-extra')
+const { fetchJson, getBuffer} = require('../lib/fetcher')
 
 async function sewa (deswita,from,MessageType,al) {
     await deswita.sendMessage(from, {
