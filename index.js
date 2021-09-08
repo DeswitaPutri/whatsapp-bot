@@ -821,6 +821,10 @@ deswita.on('chat-update', async (al) => {
         })
     }
     break
+          
+    case 'profile':
+    casesystem.profile(deswita,sender,pushname,from,image,al)
+    break
 
     /////////////////////////////////////TOOLS///////////////////////////////////////          
 
@@ -1133,9 +1137,6 @@ deswita.on('chat-update', async (al) => {
     casegroup.promote(al,reply,mentions,deswita,from)
     break
 
-    case 'profile':
-    casegroup.profile(deswita,sender,pushname,from,image,al)
-    break
     ////////////////////////////////////GAME//////////////////////////////////////
     case 'simi':
     if (args.length !== 1) return reply(`Untuk mengaktifkan al pada  Chat\n\nPenggunaan\n${prefix}simi on --mengaktifkan\n${prefix}simi off --nonaktifkan\n`)
