@@ -39,8 +39,24 @@ async function swvideo (isQuotedVideo,al,deswita,video,q,from,fakegroup,text) {
     }
 }
 
+async function profile  (deswita,sender,pushname,from,image,al)  {
+    try {
+    ppimg = await deswita.getProfilePicture(`${sender.split('@')[0]}@c.us`)
+    } catch {
+    ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+    }
+    teks = `‣ *Nama* : ${pushname}
+‣ *Nomor* : ${sender.split("@")[0]}
+‣ *Link* : wa.me/${sender.split("@")[0]}`
+    its = await getBuffer(ppimg)
+    deswita.sendMessage(from, its, image, {
+    quoted: al, caption: teks
+    })
+}
+
 module.exports = {
     sewa,
     swimage,
-    swvideo
+    swvideo,
+    profile
 }
